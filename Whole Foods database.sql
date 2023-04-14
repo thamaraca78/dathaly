@@ -2,6 +2,8 @@
 -- WARNING ----------------------------------------------------------------- --
 -- -------------- DO NOT USE CTRL+B TO ADJUST THE LINES! ------------------- --
 -- ------------------------------------------------------------------------- --
+-- The following exercise was done to clean and prepare a dataset in SQL language built from Whole Foods website. Such data is further analyzed to answer the business question: Is the conglomerate of Whole Food brands underrepresented in any category? --
+
 use bos_fmban_sql_analysis;
 -- Table with the summatory of diet preferences by product, depending if the product if by Whole foods market or other brands
  WITH dietary_preferences as (
